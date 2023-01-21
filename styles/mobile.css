@@ -81,6 +81,12 @@ p.original-price {
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
     border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-indent: 26px;
+    color: hsl(0, 0%, 100%);
 }
 
 .cart {
@@ -89,11 +95,4 @@ p.original-price {
     height: 16px;
     left: 92px;
     top: 16px;
-}
-
-.add-to-cart {
-    position: relative;
-    left: 7px;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
 }

@@ -78,6 +78,12 @@ p.original-price {
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
     border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-indent: 26px;
+    color: hsl(0, 0%, 100%);
 }
 
 .button:hover {
@@ -92,11 +98,4 @@ p.original-price {
     left: 63px;
     top: 16px;
     border-radius: 0;
-}
-
-.add-to-cart {
-    position: relative;
-    left: 7px;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
 }

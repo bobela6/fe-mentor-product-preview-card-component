@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@400;700" />
+  <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width: 600px)">
+  <link rel="stylesheet" href="styles/mobile.css" media="only screen and (max-width: 600px)">
+
 </head>
+
 <body>
+  <main>
+    <div class="card">
+      <picture>
+        <source srcset="images/image-product-desktop.jpg" media="(min-width: 1000px)" />
+        <source srcset="images/image-product-mobile.jpg" media="(max-width: 600px)" />
+        <img class="product" src="images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum" />
+      </picture>
 
-  Preview
+      <p class="category">Perfume</p>
 
-  Gabrielle Essence Eau De Parfum
+      <p class="name">Gabrielle Essence Eau De Parfum</p>
+      <p class="description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+      <p class="price">$149.99</p>
+      <p class="original-price">$169.99</p>
 
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <button class="button">
+        <img src="images/icon-cart.svg" class="cart" />
+        <p class="add-to-cart">Add to Cart</p>
+      </button>
+    </div>
+  </main>
 </body>
+
 </html>

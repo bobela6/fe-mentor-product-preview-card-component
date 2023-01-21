@@ -1,0 +1,102 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+div.card {
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+picture,
+img.product {
+    position: absolute;
+    width: 300px;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+p {
+    position: absolute;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    left: 331px;
+    width: 235px;
+}
+
+p.category {
+    text-transform: uppercase;
+    top: 20px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+p.name {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 700;
+    top: 36px;
+    line-height: 32px;
+}
+
+p.description {
+    top: 174px;
+    line-height: 23px;
+    letter-spacing: .1px;
+}
+
+p.price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    top: 273px;
+}
+
+p.original-price {
+    text-decoration: line-through;
+    font-size: 13px;
+    top: 303px;
+    left: 478px;
+}
+
+.button {
+    position: absolute;
+    top: 370px;
+    left: 332px;
+    width: 236px;
+    height: 48px;
+
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    border: none;
+}
+
+.button:hover {
+    background-color: hsl(156, 42.2%, 17.6%);
+    cursor: pointer;
+}
+
+.cart {
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    left: 63px;
+    top: 16px;
+    border-radius: 0;
+}
+
+.add-to-cart {
+    position: relative;
+    left: 7px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
